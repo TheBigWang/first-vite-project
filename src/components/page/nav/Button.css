@@ -1,0 +1,33 @@
+.button {
+   
+    width: 120px;
+    height: 70px;
+    color: white;
+    font-size: 15px;
+    border: 2px solid;
+    border-color: yellow;
+    background-color: rgba(255, 255, 255, 0)
+    
+    
+}
+
+
+.button:hover {
+    border-color: green;
+    color: yellow;
+    transition-duration: 0.3s;
+    
+
+}
+
+.button_row {
+    display: flex;
+    flex-direction:row;
+    flex-wrap: nowrap;
+    gap: 20px;
+    border: 'dashed 1px #abc';
+    /* position: absolute;
+    left: 450px;
+    top: 75px; */
+    
+}

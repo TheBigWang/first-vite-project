@@ -1,0 +1,41 @@
+[
+    {
+        "id" : "capybara",
+        "label": "Capybara",
+        "title": "First Animal",
+        "header":"Capybara",  
+        "text":"The capybara[a] or greater capybara (Hydrochoerus hydrochaeris) is a giant cavy rodent native to South America. It is the largest living rodent[2] and a member of the genus Hydrochoerus. The only other extant member is the lesser capybara (Hydrochoerus isthmius). Its close relatives include guinea pigs and rock cavies, and it is more distantly related to the agouti, the chinchilla, and the nutria. The capybara inhabits savannas and dense forests, and lives near bodies of water. It is a highly social species and can be found in groups as large as 100 individuals, but usually live in groups of 10–20 individuals. The capybara is hunted for its meat and hide and also for grease from its thick fatty skin.",
+        "img":"https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Hydrochoeris_hydrochaeris_in_Brazil_in_Petr%C3%B3polis%2C_Rio_de_Janeiro%2C_Brazil_09.jpg/1200px-Hydrochoeris_hydrochaeris_in_Brazil_in_Petr%C3%B3polis%2C_Rio_de_Janeiro%2C_Brazil_09.jpg"
+
+    },
+
+
+    {
+        "id" : "panther",
+        "label": "Panther",
+        "title": "Second Animal",
+        "header":"Panther",  
+        "text":"A black panther is the melanistic colour variant of the leopard (Panthera pardus) and the jaguar (Panthera onca). Black panthers of both species have excess black pigments, but their typical rosettes are also present. They have been documented mostly in tropical forests, with black leopards in Africa and Asia, and black jaguars in South America. Melanism is caused by a recessive allele in the leopard, and by a dominant allele in the jaguar.",
+        "img": "https://c02.purpledshub.com/uploads/sites/62/2023/11/What-is-a-black-panther.jpg"
+    },
+
+
+    {   
+        "id": "bushbaby",
+        "label": "Bushbaby",
+        "title": "Third Animal",
+        "header":"Bush Baby",  
+        "text":"Galagos are fluffy animals with huge eyes. This makes them look very cute - as if a Japanese animator drew them. Their second common name is bush baby. It refers both to the sound they make and to their cute appearance. In Afrikaans, they are also called nagapie, which means “night monkey”. This is perhaps a compliment for the galago. Because although they are technically primates, they do not quite reach the level of intellect that many other apes and monkeys are known for."
+        ,"img":"https://truespiritanimal.com/wp-content/uploads/2023/12/bush-baby-symbolism-and-meaning-5642a060.webp"
+
+    },
+    {   
+        "id": "crocodile",
+        "label": "Crocodile",
+        "title": "Fourth Animal",
+        "header":"Crocodile", 
+        "text" : "Crocodiles (family Crocodylidae) or true crocodiles are large semiaquatic reptiles that live throughout the tropics in Africa, Asia, the Americas and Australia. The term crocodile is sometimes used even more loosely to include all extant members of the order Crocodilia, which includes the alligators and caimans (family Alligatoridae), the gharial and false gharial (family Gavialidae) among other extinct taxa.", 
+        "img":"https://c02.purpledshub.com/uploads/sites/62/2014/11/GettyImages-123529247-2a29d6c.jpg"
+
+    }
+]
