@@ -1,7 +1,8 @@
 
 import { FC } from "react";
 import Header from "./Header";
-import Image from "./Image";
+
+import Display from "./image-links/ImageLinks";
 import Text from "./Text";
 import Title from "./Title";
 
@@ -10,9 +11,12 @@ interface IPage {
   header: string;
   text: string;
   img: string;
+  link: string;
+  link2: string;
+  
 }
 
-const Page: FC<IPage> = ({ title, header, text, img }) => {
+const Page: FC<IPage> = ({ title, header, text, img, link,link2}) => {
   return (
     <div style={{
       textAlign: 'left',
@@ -24,7 +28,7 @@ const Page: FC<IPage> = ({ title, header, text, img }) => {
         <Text text={text} />
       </div>
       <div style={{ flex: '1' }}>
-        <Image image={img} />
+        <Display img={img} link={link} link2={link2} />
       </div>
     </div>
   )

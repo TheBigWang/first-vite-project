@@ -7,6 +7,8 @@ export interface IDataItem {
     header: string,
     text: string,
     img: string,
+    link: string
+    link2: string,
 
 }
 

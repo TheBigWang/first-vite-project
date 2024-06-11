@@ -59,15 +59,22 @@ const App = () => {
 
     const pageData = data.find((item) => {
       return page === item.id;
+      
     })
     if (pageData) {
       return (
+        
+        
         <div>
           <Page
             title={pageData.title}
             header={pageData.header}
             text={pageData.text}
             img={pageData.img}
+            link = {pageData.link}
+            link2 = {pageData.link2}
+            
+            
           ></Page>
         </div>
       )
