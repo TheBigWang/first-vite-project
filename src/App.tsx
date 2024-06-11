@@ -71,8 +71,7 @@ const App = () => {
             header={pageData.header}
             text={pageData.text}
             img={pageData.img}
-            link = {pageData.link}
-            link2 = {pageData.link2}
+            links = {pageData.links}
             
             
           ></Page>

@@ -2,21 +2,22 @@
 import { FC } from "react";
 import Header from "./Header";
 
-import Display from "./image-links/ImageLinks";
+import ImageLinks from "./image-links/ImageLinks";
 import Text from "./Text";
 import Title from "./Title";
+import { ILinkItem } from "../../server";
 
 interface IPage {
   title: string;
   header: string;
   text: string;
   img: string;
-  link: string;
-  link2: string;
+  links: ILinkItem[];
+  
   
 }
 
-const Page: FC<IPage> = ({ title, header, text, img, link,link2}) => {
+const Page: FC<IPage> = ({ title, header, text, img, links}) => {
   return (
     <div style={{
       textAlign: 'left',
@@ -28,16 +29,11 @@ const Page: FC<IPage> = ({ title, header, text, img, link,link2}) => {
         <Text text={text} />
       </div>
       <div style={{ flex: '1' }}>
-        <Display img={img} link={link} link2={link2} />
+        <ImageLinks img={img} links={links} />
       </div>
     </div>
   )
 }
-
-
-
-
-
 
 export default Page
 
